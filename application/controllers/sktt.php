@@ -408,7 +408,7 @@ class Sktt extends CI_Controller {
 				$up['kelurahan']		= $this->input->post('kelurahan');
 				$up['ttd_jenis']		= $this->input->post('ttd_jenis');
 				$up['ttd_kode']			= $this->input->post('ttd_kode');
-				$up['keterangan']		= 'Surat Keterangan Tempat Tinggal';
+				$up['nm_surat']		    = 'Surat Keterangan Tempat Tinggal';
 				$up['tgl_pengajuan']	= $this->app_model->tgl_sql($this->input->post('tgl_pengajuan'));
 				
 				

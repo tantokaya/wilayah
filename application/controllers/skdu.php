@@ -448,7 +448,7 @@ class Skdu extends CI_Controller {
 				$up['alamat_usaha']		=$this->input->post('alamat_usaha');
 				$up['ttd_jenis']		=$this->input->post('ttd_jenis');
 				$up['ttd_kode']			=$this->input->post('ttd_kode');
-				$up['keterangan']		='Surat Keterangan Domisili Usaha';
+				$up['nm_surat']		    ='Surat Keterangan Domisili Usaha';
 				$up['tgl_pengajuan']	=$this->app_model->tgl_sql($this->input->post('tgl_pengajuan'));
 				$up['tgl_berlaku']		=$this->app_model->tgl_sql($this->app_model->get_berlaku_skdu($this->input->post('tgl_pengajuan')));
 				

@@ -402,16 +402,17 @@ class Skjd extends CI_Controller {
 				$up['pek_id']			= $this->input->post('pek_id');
 				$up['aga_id']			= $this->input->post('aga_id');
 				$up['alamat']			= $this->input->post('alamat');				
-				$up['rt']				=$this->input->post('rt');
-				$up['rw']				=$this->input->post('rw');
-				$up['kodepos']			=$this->input->post('kodepos');
-				$up['propinsi']			=$this->input->post('propinsi');
-				$up['kota']				=$this->input->post('bio_kota');
-				$up['kecamatan']		=$this->input->post('kecamatan');
-				$up['kelurahan']		=$this->input->post('kelurahan');
-				$up['ttd_jenis']		=$this->input->post('ttd_jenis');
-				$up['ttd_kode']			=$this->input->post('ttd_kode');
+				$up['rt']				= $this->input->post('rt');
+				$up['rw']				= $this->input->post('rw');
+				$up['kodepos']			= $this->input->post('kodepos');
+				$up['propinsi']			= $this->input->post('propinsi');
+				$up['kota']				= $this->input->post('bio_kota');
+				$up['kecamatan']		= $this->input->post('kecamatan');
+				$up['kelurahan']		= $this->input->post('kelurahan');
+				$up['ttd_jenis']		= $this->input->post('ttd_jenis');
+				$up['ttd_kode']			= $this->input->post('ttd_kode');
 				$up['tgl_pengajuan']	= $this->app_model->tgl_sql($this->input->post('tgl_pengajuan'));
+                $up['nm_surat']		    = 'Surat Keterangan Cerai Mati atau Hidup';
 								
 				$id['nmr_surat']=$this->input->post('nmr_surat');
 				

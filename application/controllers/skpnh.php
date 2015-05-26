@@ -414,6 +414,7 @@ class Skpnh extends CI_Controller {
 				$up['ttd_kode']			=$this->input->post('ttd_kode');
 				$up['ttd_mengetahui']		=$this->input->post('ttd_mengetahui');
 				$up['tgl_pengajuan']	= $this->app_model->tgl_sql($this->input->post('tgl_pengajuan'));
+                $up['nm_surat']		    = 'Surat Keterangan Pengantar Naik Haji';
 				
 				$id['nmr_surat']=$this->input->post('nmr_surat');
 				

@@ -429,7 +429,8 @@ class Sktmp extends CI_Controller {
 				$up['jml_tang']			= $this->input->post('jml_tang');
 				$up['tgl_pengajuan']	= $this->app_model->tgl_sql($this->input->post('tgl_pengajuan'));
 				$up['keterangan']		= $this->input->post('keterangan');
-				
+				$up['nm_surat']		    = 'Surat Keterangan Tidak Mampu';
+
 				$id['nmr_surat']=$this->input->post('nmr_surat');
 				
 				$data = $this->app_model->getSelectedData("sktmp",$id);

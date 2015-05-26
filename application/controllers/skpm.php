@@ -463,6 +463,7 @@ class skpm extends CI_Controller {
 				$up['kecamatan2']		=$this->input->post('kecamatan2');
 				$up['kelurahan2']		=$this->input->post('kelurahan2');
 				$up['tgl_pengajuan']	= $this->app_model->tgl_sql($this->input->post('tgl_pengajuan'));
+                $up['nm_surat']		    = 'Surat Keterangan Persetujuan Mempelai';
 				
 				$id['nmr_surat']=$this->input->post('nmr_surat');
 				

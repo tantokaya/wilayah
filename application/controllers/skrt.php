@@ -514,9 +514,10 @@ class Skrt extends CI_Controller {
 				$up['tgl_beralih2']		= $this->app_model->tgl_sql($this->input->post('tgl_beralih2'));
 				$up['a_nama1']			=$this->input->post('a_nama1');
 				$up['a_nama2']			=$this->input->post('a_nama2');
-$up['no_c']			=$this->input->post('no_c');
-$up['no_parsil']			=$this->input->post('no_parsil');
+                $up['no_c']			=$this->input->post('no_c');
+                $up['no_parsil']			=$this->input->post('no_parsil');
 				$up['tgl_pengajuan']	= $this->app_model->tgl_sql($this->input->post('tgl_pengajuan'));
+                $up['nm_surat']		    = 'Surat Keterangan Riwayat Tanah';
 				
 				$id['nmr_surat']=$this->input->post('nmr_surat');
 				

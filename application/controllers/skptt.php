@@ -403,17 +403,18 @@ class Skptt extends CI_Controller {
 				$up['kew_id']			= $this->input->post('kew_id');
 				$up['pek_id']			= $this->input->post('pek_id');
 				$up['aga_id']			= $this->input->post('aga_id');
-				$up['ttd_jenis']		=$this->input->post('ttd_jenis');
-				$up['ttd_kode']			=$this->input->post('ttd_kode');
+				$up['ttd_jenis']		= $this->input->post('ttd_jenis');
+				$up['ttd_kode']			= $this->input->post('ttd_kode');
 				$up['alamat']			= $this->input->post('alamat');				
-				$up['rt']				=$this->input->post('rt');
-				$up['rw']				=$this->input->post('rw');
-				$up['kodepos']			=$this->input->post('kodepos');
-				$up['propinsi']			=$this->input->post('propinsi');
-				$up['kota']				=$this->input->post('bio_kota');
-				$up['kecamatan']		=$this->input->post('kecamatan');
-				$up['kelurahan']		=$this->input->post('kelurahan');
+				$up['rt']				= $this->input->post('rt');
+				$up['rw']				= $this->input->post('rw');
+				$up['kodepos']			= $this->input->post('kodepos');
+				$up['propinsi']			= $this->input->post('propinsi');
+				$up['kota']				= $this->input->post('bio_kota');
+				$up['kecamatan']		= $this->input->post('kecamatan');
+				$up['kelurahan']		= $this->input->post('kelurahan');
 				$up['tgl_pengajuan']	= $this->app_model->tgl_sql($this->input->post('tgl_pengajuan'));
+                $up['nm_surat']		    = 'Surat Keterangan Penghasilan Tidak Tetap';
 				
 				
 				$id['nmr_surat']=$this->input->post('nmr_surat');

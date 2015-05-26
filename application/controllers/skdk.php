@@ -541,7 +541,8 @@ class Skdk extends CI_Controller {
 				$up['tgl6']			=$this->app_model->tgl_sql($this->input->post('tgl6'));
 				$up['hub6']			=$this->input->post('hub6');
 				$up['ket6']			=$this->input->post('ket6');
-				
+                $up['nm_surat']		    = 'Surat Keterangan Daftar Keluarga';
+
 				$id['nmr_surat']=$this->input->post('nmr_surat');
 				
 				$data = $this->app_model->getSelectedData("skdk",$id);

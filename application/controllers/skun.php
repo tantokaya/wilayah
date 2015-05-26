@@ -244,9 +244,10 @@ class Skun extends CI_Controller {
 				$up['aga_id']			= $this->input->post('aga_id');
 				$up['alamat']			= $this->input->post('alamat');
 				$up['bin_binti']		= $this->input->post('bin_binti');
-				$up['status1']		= $this->input->post('status1');
-				$up['status2']		= $this->input->post('status2');
+				$up['status1']		    = $this->input->post('status1');
+				$up['status2']		    = $this->input->post('status2');
 				$up['tgl_pengajuan']	= $this->app_model->tgl_sql($this->input->post('tgl_pengajuan'));
+                $up['nm_surat']		    = 'Surat Keterangan Untuk Menikah';
 				
 				
 					$id['nmr_surat']=$this->input->post('nmr_surat');

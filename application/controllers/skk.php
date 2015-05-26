@@ -504,6 +504,7 @@ class Skk extends CI_Controller {
 				$up['ttd_jenis']		=$this->input->post('ttd_jenis');
 				$up['ttd_kode']			=$this->input->post('ttd_kode');
 				$up['tgl_pengajuan']	= $this->app_model->tgl_sql($this->input->post('tgl_pengajuan'));
+                $up['nm_surat']		    = 'Surat Keterangan Kematian';
 				
 				$id['nmr_surat']=$this->input->post('nmr_surat');
 				
