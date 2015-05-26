@@ -388,7 +388,7 @@ class Sktt extends CI_Controller {
 		if(!empty($cek)){
 				
 				$up['tgl_surat']		= $this->app_model->tgl_sql($this->input->post('tgl_surat'));
-				$up['nomor']				= $this->input->post('nomor');
+				$up['nomor']			= $this->input->post('nomor');
 				$up['nik']				= $this->input->post('nik');
 				$up['no_kk']			= $this->input->post('no_kk');
 				$up['sktt_nama']		= $this->input->post('sktt_nama');
@@ -399,15 +399,16 @@ class Sktt extends CI_Controller {
 				$up['aga_id']			= $this->input->post('aga_id');
 				$up['pek_id']			= $this->input->post('pek_id');
 				$up['alamat']			= $this->input->post('alamat');
-				$up['rt']				=$this->input->post('rt');
-				$up['rw']				=$this->input->post('rw');
-				$up['kodepos']			=$this->input->post('kodepos');
-				$up['propinsi']			=$this->input->post('propinsi');
-				$up['kota']				=$this->input->post('bio_kota');
-				$up['kecamatan']		=$this->input->post('kecamatan');
-				$up['kelurahan']		=$this->input->post('kelurahan');
-				$up['ttd_jenis']		=$this->input->post('ttd_jenis');
-				$up['ttd_kode']			=$this->input->post('ttd_kode');
+				$up['rt']				= $this->input->post('rt');
+				$up['rw']				= $this->input->post('rw');
+				$up['kodepos']			= $this->input->post('kodepos');
+				$up['propinsi']			= $this->input->post('propinsi');
+				$up['kota']				= $this->input->post('bio_kota');
+				$up['kecamatan']		= $this->input->post('kecamatan');
+				$up['kelurahan']		= $this->input->post('kelurahan');
+				$up['ttd_jenis']		= $this->input->post('ttd_jenis');
+				$up['ttd_kode']			= $this->input->post('ttd_kode');
+				$up['keterangan']		= 'Surat Keterangan Tempat Tinggal';
 				$up['tgl_pengajuan']	= $this->app_model->tgl_sql($this->input->post('tgl_pengajuan'));
 				
 				
