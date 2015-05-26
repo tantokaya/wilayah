@@ -49,12 +49,6 @@
             <li data-options="iconCls:'icon-surat_keputusan'">
                 <a href="<?php echo base_url();?>index.php/sktkt">SK Tdk Keberatan Tetangga (SKTKT)</a>
             </li>
-            <!--<li data-options="iconCls:'icon-surat_keputusan'">
-    <a href="<?php echo base_url();?>index.php/sktot">Surat Keterangan Tentang Ortu</a>
-    </li>
-	<li data-options="iconCls:'icon-surat_keputusan'">
-    <a href="<?php echo base_url();?>index.php/skau">Surat Keterangan Asal Usul</a>
-    </li>-->
             <li data-options="iconCls:'icon-surat_keputusan'">
                 <a href="<?php echo base_url();?>index.php/skun_na">SK Untuk Menikah (SKUN)</a>
             </li>
@@ -88,8 +82,6 @@
             <li data-options="iconCls:'icon-surat_keputusan'">
                 <a href="<?php echo base_url();?>index.php/skptt">SK Penghasilan tdk Tetap (SKPTT)</a>
             </li>
-            <!--<li data-options="iconCls:'icon-surat_keputusan'">
-    <a href="<?php echo base_url();?>index.php/pembelian">Pembelian</a>-->
         </ul>
     </div>
 </div>
